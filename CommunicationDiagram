@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T17:27:34.210Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="oxIGMOdYng-gel3V-T1X" version="22.1.16" type="github" pages="30">
+<mxfile host="app.diagrams.net" modified="2024-01-30T17:27:52.946Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ZYbF0QHyV2hyCXZu4cfK" version="22.1.16" type="github" pages="30">
   <diagram name="Login" id="kou3-oPvgSE6Os0f7YPS">
     <mxGraphModel dx="1774" dy="1171" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
       <root>
@@ -499,75 +499,78 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WHKpoXzIGxrMB1SxJrz_" name="AddTestForAnAppointment">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SsXX8p6sdLaiK0-NiYom-1" value="Technician" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="410" width="30" height="60" as="geometry" />
+        <mxCell id="xLvmXqIXCtyARrgekD3y-1" value="Technician" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="152" y="216" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SsXX8p6sdLaiK0-NiYom-2" value="&amp;lt;&amp;lt; Appointments Page &amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="410" width="150" height="60" as="geometry" />
+        <mxCell id="xLvmXqIXCtyARrgekD3y-2" value="&amp;lt;&amp;lt; Appointments Page &amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="482" y="216" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SsXX8p6sdLaiK0-NiYom-3" value="Labratory:Labratory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="410" width="140" height="60" as="geometry" />
+        <mxCell id="xLvmXqIXCtyARrgekD3y-3" value="Labratory:Labratory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1032" y="216" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SsXX8p6sdLaiK0-NiYom-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SsXX8p6sdLaiK0-NiYom-1" target="SsXX8p6sdLaiK0-NiYom-2">
+        <mxCell id="xLvmXqIXCtyARrgekD3y-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xLvmXqIXCtyARrgekD3y-1" target="xLvmXqIXCtyARrgekD3y-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60" y="440" as="sourcePoint" />
-            <mxPoint x="110" y="390" as="targetPoint" />
+            <mxPoint x="172" y="246" as="sourcePoint" />
+            <mxPoint x="222" y="196" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SsXX8p6sdLaiK0-NiYom-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SsXX8p6sdLaiK0-NiYom-2" target="SsXX8p6sdLaiK0-NiYom-3">
+        <mxCell id="xLvmXqIXCtyARrgekD3y-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xLvmXqIXCtyARrgekD3y-2" target="xLvmXqIXCtyARrgekD3y-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="410" y="440" as="sourcePoint" />
-            <mxPoint x="440" y="390" as="targetPoint" />
+            <mxPoint x="522" y="246" as="sourcePoint" />
+            <mxPoint x="552" y="196" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SsXX8p6sdLaiK0-NiYom-6" value="&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 14px;&quot;&gt;1: Clicks on appointments button&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 23px;&quot;&gt;→&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="406" width="270" height="50" as="geometry" />
+        <mxCell id="xLvmXqIXCtyARrgekD3y-6" value="&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 14px;&quot;&gt;1: Clicks on appointments button&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 23px;&quot;&gt;→&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="212" y="212" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="SsXX8p6sdLaiK0-NiYom-7" value="&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 14px;&quot;&gt;2: getAllAppointments()&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 23px;&quot;&gt;→&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="630" y="405" width="180" height="70" as="geometry" />
+        <mxCell id="xLvmXqIXCtyARrgekD3y-7" value="&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 14px;&quot;&gt;2: getAllAppointments()&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 23px;&quot;&gt;→&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="742" y="211" width="180" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="SsXX8p6sdLaiK0-NiYom-8" value="&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 14px;&quot;&gt;3: Selects an appointment&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 23px;&quot;&gt;→&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="434" width="270" height="50" as="geometry" />
+        <mxCell id="xLvmXqIXCtyARrgekD3y-8" value="&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 14px;&quot;&gt;3: Selects an appointment&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 23px;&quot;&gt;→&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="222" y="240" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="SsXX8p6sdLaiK0-NiYom-9" value="Labratory:Labratory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="660" width="140" height="60" as="geometry" />
+        <mxCell id="xLvmXqIXCtyARrgekD3y-9" value="&amp;lt;&amp;lt;Appointment Details Page&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="482" y="466" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="SsXX8p6sdLaiK0-NiYom-11" value="&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 14px;&quot;&gt;4: Selected appointment&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
-          <mxGeometry x="266" y="560" width="160" height="30" as="geometry" />
+        <mxCell id="xLvmXqIXCtyARrgekD3y-10" value="&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 14px;&quot;&gt;4: Selected appointment&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="378" y="366" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SsXX8p6sdLaiK0-NiYom-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SsXX8p6sdLaiK0-NiYom-1" target="SsXX8p6sdLaiK0-NiYom-9">
+        <mxCell id="xLvmXqIXCtyARrgekD3y-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xLvmXqIXCtyARrgekD3y-1" target="xLvmXqIXCtyARrgekD3y-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="610" as="sourcePoint" />
-            <mxPoint x="610" y="560" as="targetPoint" />
+            <mxPoint x="672" y="416" as="sourcePoint" />
+            <mxPoint x="722" y="366" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SsXX8p6sdLaiK0-NiYom-15" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 23px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;→&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="413" y="570" width="50" height="30" as="geometry" />
+        <mxCell id="xLvmXqIXCtyARrgekD3y-12" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 23px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;→&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="525" y="376" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SsXX8p6sdLaiK0-NiYom-16" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SsXX8p6sdLaiK0-NiYom-9">
+        <mxCell id="xLvmXqIXCtyARrgekD3y-13" value="" style="endArrow=none;html=1;rounded=0;exitX=0.398;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xLvmXqIXCtyARrgekD3y-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="570.81" y="605.12" as="sourcePoint" />
-            <mxPoint x="440" y="470" as="targetPoint" />
+            <mxPoint x="682.81" y="411.12" as="sourcePoint" />
+            <mxPoint x="552" y="276" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j-7CYQ-jHfmnUve_g9Br-1" value="&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;5: Enters test type&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 23px;&quot;&gt;→&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;rotation=39;" vertex="1" parent="1">
-          <mxGeometry x="100" y="576" width="270" height="50" as="geometry" />
+        <mxCell id="xLvmXqIXCtyARrgekD3y-14" value="&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;5: Enters test type&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 23px;&quot;&gt;→&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;rotation=39;" vertex="1" parent="1">
+          <mxGeometry x="212" y="382" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="j-7CYQ-jHfmnUve_g9Br-3" value="Technician:Technician" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="920" y="660" width="140" height="60" as="geometry" />
+        <mxCell id="xLvmXqIXCtyARrgekD3y-15" value="Technician:Technician" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1032" y="466" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="j-7CYQ-jHfmnUve_g9Br-4" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SsXX8p6sdLaiK0-NiYom-9" target="j-7CYQ-jHfmnUve_g9Br-3">
+        <mxCell id="xLvmXqIXCtyARrgekD3y-16" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xLvmXqIXCtyARrgekD3y-9" target="xLvmXqIXCtyARrgekD3y-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="610" as="sourcePoint" />
-            <mxPoint x="610" y="560" as="targetPoint" />
+            <mxPoint x="672" y="416" as="sourcePoint" />
+            <mxPoint x="722" y="366" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j-7CYQ-jHfmnUve_g9Br-5" value="&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 14px;&quot;&gt;6: addPatientTest(appointment, testType, status)&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 23px;&quot;&gt;→&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="655" width="360" height="65" as="geometry" />
+        <mxCell id="xLvmXqIXCtyARrgekD3y-17" value="&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 14px;&quot;&gt;6: addPatientTest(appointment, testType, status)&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 23px;&quot;&gt;→&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="682" y="461" width="360" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="xLvmXqIXCtyARrgekD3y-18" value="AddTestForAppointment" style="shape=umlFrame;whiteSpace=wrap;html=1;width=130;height=30;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="132" y="176" width="1100" height="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
