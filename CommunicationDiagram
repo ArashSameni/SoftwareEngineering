@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T12:06:45.116Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="O9G5MQ7L-bADCaitE-B1" version="22.1.16" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-01-30T12:11:08.891Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="iWvx4K-9NzvFf978NBcz" version="22.1.16" type="github" pages="2">
   <diagram name="Login" id="kou3-oPvgSE6Os0f7YPS">
     <mxGraphModel dx="1242" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="850" math="0" shadow="0">
       <root>
@@ -60,7 +60,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="niovN29w2nJwpeavDoIb" name="ForgetPassword">
-    <mxGraphModel dx="857" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1307" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,14 +76,32 @@
         <mxCell id="raxICPokEJajLGlPC3zq-3" value="&amp;lt;&amp;lt;Login Panel&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="335" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="raxICPokEJajLGlPC3zq-4" value="Enters PhoneNumber and Clicks on forget password" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="raxICPokEJajLGlPC3zq-4" value="1: Enters PhoneNumber and Clicks on forget password" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="335" width="300" height="40" as="geometry" />
         </mxCell>
         <mxCell id="raxICPokEJajLGlPC3zq-7" value=":User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="335" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2P1HfG1LCUu-jzAzFIR4-3" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;sendOTPCode(Phonenumber)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2P1HfG1LCUu-jzAzFIR4-3" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;2: sendOTPCode(Phonenumber)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="335" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YdcA7ZYn9skOsp5ZB9fk-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.01;entryY=0.664;entryDx=0;entryDy=0;exitX=0.467;exitY=0.69;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="raxICPokEJajLGlPC3zq-2" target="raxICPokEJajLGlPC3zq-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="445" as="sourcePoint" />
+            <mxPoint x="340" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YdcA7ZYn9skOsp5ZB9fk-2" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;3: Enters OTP Code&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="375" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YdcA7ZYn9skOsp5ZB9fk-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.008;entryY=0.674;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="raxICPokEJajLGlPC3zq-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="375" as="sourcePoint" />
+            <mxPoint x="680" y="325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YdcA7ZYn9skOsp5ZB9fk-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;4: ChangePassword(PhoneNumber, NewPassword, OTPcode)&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="373" width="330" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
