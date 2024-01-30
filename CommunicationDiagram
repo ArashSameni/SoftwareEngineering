@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T17:27:15.362Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ymBTa10zMZsLXL3O0bfS" version="22.1.16" type="github" pages="30">
+<mxfile host="app.diagrams.net" modified="2024-01-30T17:27:34.210Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="oxIGMOdYng-gel3V-T1X" version="22.1.16" type="github" pages="30">
   <diagram name="Login" id="kou3-oPvgSE6Os0f7YPS">
     <mxGraphModel dx="1774" dy="1171" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="800" math="0" shadow="0">
       <root>
@@ -465,32 +465,35 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Foi-FChMIm5AW417scHq-1" value="Technician" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="l-Hc677jsvcdb20TyJTC-1" value="Technician" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="410" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Foi-FChMIm5AW417scHq-2" value="&amp;lt;&amp;lt; Appointments Page &amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="l-Hc677jsvcdb20TyJTC-2" value="&amp;lt;&amp;lt; Appointments Page &amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="410" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Foi-FChMIm5AW417scHq-3" value="Labratory:Labratory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="l-Hc677jsvcdb20TyJTC-3" value="Labratory:Labratory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="410" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Foi-FChMIm5AW417scHq-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Foi-FChMIm5AW417scHq-1" target="Foi-FChMIm5AW417scHq-2">
+        <mxCell id="l-Hc677jsvcdb20TyJTC-4" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="l-Hc677jsvcdb20TyJTC-1" target="l-Hc677jsvcdb20TyJTC-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="440" as="sourcePoint" />
             <mxPoint x="110" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Foi-FChMIm5AW417scHq-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Foi-FChMIm5AW417scHq-2" target="Foi-FChMIm5AW417scHq-3">
+        <mxCell id="l-Hc677jsvcdb20TyJTC-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="l-Hc677jsvcdb20TyJTC-2" target="l-Hc677jsvcdb20TyJTC-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="440" as="sourcePoint" />
             <mxPoint x="440" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Foi-FChMIm5AW417scHq-6" value="&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 14px;&quot;&gt;1: Clicks on appointments button&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 23px;&quot;&gt;→&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="l-Hc677jsvcdb20TyJTC-6" value="&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 14px;&quot;&gt;1: Clicks on appointments button&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 23px;&quot;&gt;→&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="400" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Foi-FChMIm5AW417scHq-7" value="&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 14px;&quot;&gt;2: getAllAppointments()&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 23px;&quot;&gt;→&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="l-Hc677jsvcdb20TyJTC-7" value="&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 14px;&quot;&gt;2: getAllAppointments()&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 23px;&quot;&gt;→&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="400" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l-Hc677jsvcdb20TyJTC-8" value="ShowAppointment" style="shape=umlFrame;whiteSpace=wrap;html=1;width=130;height=30;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="20" y="370" width="950" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
