@@ -1,9 +1,121 @@
-<mxfile host="app.diagrams.net" modified="2024-01-30T08:11:58.376Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="wXz2EJCdo4vVkJZMWik2" version="23.0.2" type="github">
-  <diagram name="Page-1" id="kou3-oPvgSE6Os0f7YPS">
-    <mxGraphModel dx="1314" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="850" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2024-01-30T12:02:33.204Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="6evUPiEUgEf4RXWWE_85" version="22.1.16" type="github" pages="2">
+  <diagram name="Login" id="kou3-oPvgSE6Os0f7YPS">
+    <mxGraphModel dx="2070" dy="1367" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hWcZGeEurEEGy7XUf2kL-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hWcZGeEurEEGy7XUf2kL-2" target="hWcZGeEurEEGy7XUf2kL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hWcZGeEurEEGy7XUf2kL-2" value="Pathologist/Technician/Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="335" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hWcZGeEurEEGy7XUf2kL-3" value="&amp;lt;&amp;lt;Login Panel&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hWcZGeEurEEGy7XUf2kL-8" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Enters the username and password and clicks on Login&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="335" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hWcZGeEurEEGy7XUf2kL-9" value=":Pathologist" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hWcZGeEurEEGy7XUf2kL-10" value=":Technician" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hWcZGeEurEEGy7XUf2kL-11" value=":LabManeger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hWcZGeEurEEGy7XUf2kL-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="hWcZGeEurEEGy7XUf2kL-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="370" as="sourcePoint" />
+            <mxPoint x="840" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hWcZGeEurEEGy7XUf2kL-16" value="login(username, password)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=335;" vertex="1" connectable="0" parent="hWcZGeEurEEGy7XUf2kL-13">
+          <mxGeometry x="-0.05" y="-2" relative="1" as="geometry">
+            <mxPoint x="3" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hWcZGeEurEEGy7XUf2kL-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.004;exitY=0.594;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hWcZGeEurEEGy7XUf2kL-3" target="hWcZGeEurEEGy7XUf2kL-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="375" as="sourcePoint" />
+            <mxPoint x="860" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hWcZGeEurEEGy7XUf2kL-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.035;entryY=0.491;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="hWcZGeEurEEGy7XUf2kL-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="370" as="sourcePoint" />
+            <mxPoint x="680" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hWcZGeEurEEGy7XUf2kL-18" value="[Not Pathologist &amp;amp; Technician]: login(username, password" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=25;" vertex="1" connectable="0" parent="hWcZGeEurEEGy7XUf2kL-15">
+          <mxGeometry x="0.04" relative="1" as="geometry">
+            <mxPoint x="8" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hWcZGeEurEEGy7XUf2kL-17" value="[Not Pathologist]: login(username, password)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=359;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="810" y="355" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="niovN29w2nJwpeavDoIb" name="ForgetPassword">
+    <mxGraphModel dx="1307" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="raxICPokEJajLGlPC3zq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="raxICPokEJajLGlPC3zq-2" target="raxICPokEJajLGlPC3zq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="raxICPokEJajLGlPC3zq-2" value="Pathologist/Technician/Manager" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="335" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="raxICPokEJajLGlPC3zq-3" value="&amp;lt;&amp;lt;Login Panel&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="raxICPokEJajLGlPC3zq-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Enters the username and password and clicks on Login&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="335" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="raxICPokEJajLGlPC3zq-5" value=":Pathologist" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="raxICPokEJajLGlPC3zq-6" value=":Technician" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="raxICPokEJajLGlPC3zq-7" value=":LabManeger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="raxICPokEJajLGlPC3zq-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="raxICPokEJajLGlPC3zq-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="370" as="sourcePoint" />
+            <mxPoint x="840" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="raxICPokEJajLGlPC3zq-9" value="login(username, password)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=335;" vertex="1" connectable="0" parent="raxICPokEJajLGlPC3zq-8">
+          <mxGeometry x="-0.05" y="-2" relative="1" as="geometry">
+            <mxPoint x="3" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="raxICPokEJajLGlPC3zq-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.004;exitY=0.594;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="raxICPokEJajLGlPC3zq-3" target="raxICPokEJajLGlPC3zq-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="375" as="sourcePoint" />
+            <mxPoint x="860" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="raxICPokEJajLGlPC3zq-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.035;entryY=0.491;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="raxICPokEJajLGlPC3zq-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="370" as="sourcePoint" />
+            <mxPoint x="680" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="raxICPokEJajLGlPC3zq-12" value="[Not Pathologist &amp;amp; Technician]: login(username, password" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=25;" vertex="1" connectable="0" parent="raxICPokEJajLGlPC3zq-11">
+          <mxGeometry x="0.04" relative="1" as="geometry">
+            <mxPoint x="8" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="raxICPokEJajLGlPC3zq-13" value="[Not Pathologist]: login(username, password)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=359;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="810" y="355" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
