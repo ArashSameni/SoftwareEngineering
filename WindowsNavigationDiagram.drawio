@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T14:12:38.146Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="DpJTQHxxOUeI4lr2Ii8T" version="22.1.16" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-31T14:13:48.426Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="z_vwYyCAhmetdXtZgJBf" version="22.1.16" type="github" pages="7">
   <diagram name="LandingPage" id="d2KiAx9O_kRmnixwuyJP">
     <mxGraphModel dx="1553" dy="1025" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="600" math="0" shadow="0">
       <root>
@@ -1585,7 +1585,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="OpCYWTyt51fATm5fbNbF" name="Pathologist">
-    <mxGraphModel dx="2274" dy="1671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500" pageHeight="500" math="0" shadow="0">
+    <mxGraphModel dx="1683" dy="1281" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="500" pageHeight="500" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1941,6 +1941,11 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1170" y="640" as="sourcePoint" />
             <mxPoint x="1087" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FI3zIatzqTc1ni3IUX2l-1" value="Click Filter button" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZlwHdDBWYJ-ev_S1pSTz-16">
+          <mxGeometry x="-0.032" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vbK-DzaIIfzxpwOAO8s7-1" value="" style="group;movable=1;resizable=1;rotatable=0;deletable=1;editable=1;locked=0;connectable=1;" connectable="0" vertex="1" parent="1">
