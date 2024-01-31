@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T10:46:09.663Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="EvaUb2tkPixrSzI5iQyw" version="23.0.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-01-31T10:50:32.112Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="uDlEZSA4_hra1ZIosSLs" version="23.0.2" type="github" pages="4">
   <diagram name="LandingPage" id="d2KiAx9O_kRmnixwuyJP">
     <mxGraphModel dx="1314" dy="831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="600" math="0" shadow="0">
       <root>
@@ -186,7 +186,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2ZkSmUwTlgobLcQTL-sV" name="LoginPage">
-    <mxGraphModel dx="1314" dy="831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2022" dy="1278" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -343,7 +343,7 @@
             <mxPoint x="1125" y="368" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sCL51m-kSu1LPmvqCi-5-8" value="[Verified]&lt;br&gt;Click Verify button" style="edgeLabel;resizable=1;html=1;align=center;verticalAlign=middle;movable=1;rotatable=0;deletable=1;editable=1;locked=0;connectable=1;" parent="sCL51m-kSu1LPmvqCi-5-7" connectable="0" vertex="1">
+        <mxCell id="sCL51m-kSu1LPmvqCi-5-8" value="[Valid]&lt;br&gt;Click Verify button" style="edgeLabel;resizable=1;html=1;align=center;verticalAlign=middle;movable=1;rotatable=0;deletable=1;editable=1;locked=0;connectable=1;" parent="sCL51m-kSu1LPmvqCi-5-7" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sCL51m-kSu1LPmvqCi-5-20" value="" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=0;deletable=1;editable=1;locked=0;connectable=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="_D7GT5WBz6-RWJVodlV1-15" target="dHPSiEW8hRQF3vPIDJsS-1" edge="1">
@@ -472,11 +472,45 @@
         <mxCell id="_D7GT5WBz6-RWJVodlV1-31" value="Click Login&amp;nbsp;button" style="edgeLabel;resizable=1;html=1;align=center;verticalAlign=middle;movable=1;rotatable=0;deletable=1;editable=1;locked=0;connectable=1;" parent="_D7GT5WBz6-RWJVodlV1-30" connectable="0" vertex="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="UP347QMs_8G9gA7BAErq-1" value="" style="group;movable=1;resizable=1;rotatable=0;deletable=1;editable=1;locked=0;connectable=1;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="191" y="644" width="160" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="UP347QMs_8G9gA7BAErq-2" value="" style="group;imageAlign=center;fillColor=#f8cecc;strokeColor=#b85450;imageVerticalAlign=top;fixDash=1;movable=1;resizable=1;rotatable=0;deletable=1;editable=1;locked=0;connectable=1;" connectable="0" vertex="1" parent="UP347QMs_8G9gA7BAErq-1">
+          <mxGeometry width="160" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="UP347QMs_8G9gA7BAErq-3" value="&amp;lt;&amp;lt;Window&amp;gt;&amp;gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;strokeColor=none;fillColor=none;imageAlign=center;movable=1;rotatable=0;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="UP347QMs_8G9gA7BAErq-1">
+          <mxGeometry x="37" y="2.1791666666666654" width="89" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UP347QMs_8G9gA7BAErq-4" value="Patient Panel" style="text;html=1;align=center;verticalAlign=middle;resizable=1;points=[];autosize=0;strokeColor=none;fillColor=none;imageAspect=0;imageVerticalAlign=top;fixDash=0;movable=1;rotatable=0;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="UP347QMs_8G9gA7BAErq-1">
+          <mxGeometry x="40" y="28.13333333333334" width="80" height="12.25" as="geometry" />
+        </mxCell>
+        <mxCell id="UP347QMs_8G9gA7BAErq-5" value="" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=0;deletable=1;editable=1;locked=0;connectable=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.48;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_D7GT5WBz6-RWJVodlV1-20" target="UP347QMs_8G9gA7BAErq-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1006" y="189" as="sourcePoint" />
+            <mxPoint x="1119" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UP347QMs_8G9gA7BAErq-6" value="[Valid]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Click Verify button" style="edgeLabel;resizable=1;html=1;align=center;verticalAlign=middle;movable=1;rotatable=0;deletable=1;editable=1;locked=0;connectable=1;" connectable="0" vertex="1" parent="UP347QMs_8G9gA7BAErq-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jLGq9syAkQUsaWPQLaNG-3" value="" style="endArrow=classic;html=1;rounded=0;movable=1;resizable=1;rotatable=0;deletable=1;editable=1;locked=0;connectable=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.096;exitY=-0.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_D7GT5WBz6-RWJVodlV1-20" target="_D7GT5WBz6-RWJVodlV1-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="279" y="528" as="sourcePoint" />
+            <mxPoint x="270" y="648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jLGq9syAkQUsaWPQLaNG-4" value="[Invalid]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Click Verify button" style="edgeLabel;resizable=1;html=1;align=center;verticalAlign=middle;movable=1;rotatable=0;deletable=1;editable=1;locked=0;connectable=1;" connectable="0" vertex="1" parent="jLGq9syAkQUsaWPQLaNG-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="W5NZKcqVqs9iEHbRH_zS" name="LabRegistration">
-    <mxGraphModel dx="1752" dy="1108" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1500" math="0" shadow="0">
+    <mxGraphModel dx="1643" dy="1039" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1500" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -603,7 +637,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZElVY8WI2Tdme77iMeX1" name="ManagerPanel">
-    <mxGraphModel dx="1877" dy="1187" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1500" math="0" shadow="0">
+    <mxGraphModel dx="1314" dy="831" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1500" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
